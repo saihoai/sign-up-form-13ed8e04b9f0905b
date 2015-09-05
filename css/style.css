@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+	.modal-dialog { width: 450px; }
+}
+.modal-content { box-shadow: 0 3px 5px rgba(0,0,0,.2); }
+.modal-content:before,
+.modal-content:after { content: ""; position: absolute; left: 0; border-width: 0 0 1px; border-style: solid; border-color: rgba(0,0,0,.2); height: 10px; width: 100%; border-radius: 6px; }
+.modal-content:before { bottom: -3px; }
+.modal-content:after { bottom: -5px; }
